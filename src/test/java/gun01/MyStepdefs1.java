@@ -7,8 +7,9 @@ public class MyStepdefs1 {
 
     String str = "a";
 
+
     @Then("login form should be visible")
-    public void loginFormShouldBeVisible() {
+    public void loginFormShouldBeVisible1() {
         Assert.assertEquals(str, "a");
     }
 
