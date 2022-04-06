@@ -92,15 +92,11 @@ public class MyStepdefs extends ParentClass {
     }
 
 
-    //@Before
-    public void beforeScenario(){
-        System.out.println("---------------before");
+    //@After
+    public void after(){
+
     }
 
-    @After
-    public void afterScenario(){
-        System.out.println("----------------after");
-        Driver.quitDriver();
-    }
+
 
 }
