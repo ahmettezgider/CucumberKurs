@@ -55,7 +55,6 @@ public class MyStepdefsGun03 extends ParentClass {
 
          */
 
-
         List<List<String>> lists = table.asLists();
 
         LoginPO loginPO = new LoginPO();
@@ -78,7 +77,6 @@ public class MyStepdefsGun03 extends ParentClass {
             }else{
                 Assert.assertTrue(driver.getTitle().contains("My Account"));
             }
-
 
         }
 

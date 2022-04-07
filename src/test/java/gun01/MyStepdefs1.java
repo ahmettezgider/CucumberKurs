@@ -26,6 +26,7 @@ public class MyStepdefs1 {
     @Given("user on home page")
     public void userOnHomePage() {
         //Assert.fail();
+        System.out.println("alt scenario outline");
     }
 
     @Given("user goes to login form")
